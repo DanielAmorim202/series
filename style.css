@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+      background-color: rgb(0, 0, 0);
+      width: 100%;
+}
+
+.titlebox{
+        font-family: "Rowdies", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: yellow;
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+        width: 100%;
+        font-size: 2em;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+
+.itens{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9em;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: .9em;
+}
+button{
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.7em;
+    color: white;
+    background-color: rgb(255, 149, 0);
+    padding: 25px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1%;
+}
